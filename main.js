@@ -6,7 +6,7 @@ let quiz = [
         Task: chalk.italic.cyan.bold("\n(1). what is TypeScript?\n"),
         choices: [
             chalk.italic.yellowBright.bold("(a) A superset of Javascript"),
-            chalk.italic.cyanBright.bold("(b) A superset of pyothn"),
+            chalk.italic.cyanBright.bold("(b) A superset of python"),
             chalk.italic.greenBright.bold("(c) A superset of nextjs"),
         ],
         correct: chalk.italic.yellowBright.bold("(a) A superset of Javascript")
@@ -108,7 +108,7 @@ let quiz = [
             chalk.italic.cyanBright.bold("(b). **"),
             chalk.italic.greenBright.bold("(c). %"),
         ],
-        correct: chalk.italic.yellowBright.bold("(a). ^")
+        correct: chalk.italic.cyanBright.bold("(b). **")
     },
     {
         Task: chalk.italic.cyan.bold("\n(13). What is the result of the following TypeScript\nexpression: 10 + 5* 2?\n"),
