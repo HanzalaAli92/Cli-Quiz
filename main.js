@@ -41,11 +41,11 @@ let quiz = [
     {
         Task: chalk.italic.cyan.bold("\n(5). How do you install TypeScript globally using npm\n"),
         choices: [
-            chalk.italic.yellowBright.bold("(a). npm install -g typescript"),
-            chalk.italic.cyanBright.bold("(b). npm typescript install -g"),
+            chalk.italic.yellowBright.bold("(a). npm typescript install -g"),
+            chalk.italic.cyanBright.bold("(b). npm install -g typescript"),
             chalk.italic.greenBright.bold("(c). npm add typescript -g"),
         ],
-        correct: chalk.italic.cyanBright.bold("(b). npm typescript install -g")
+        correct: chalk.italic.cyanBright.bold("(b). npm install -g typescript")
     },
     {
         Task: chalk.italic.cyan.bold("\n(6). What will be the result of the following TypeScript\nexpression: console.log(`'Hello' + 'World'`)?\n"),
