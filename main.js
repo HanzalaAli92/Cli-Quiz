@@ -140,6 +140,11 @@ let quiz = [
 ];
 async function startQuiz() {
     console.log(chalk.italic.yellow.bold(`\n\t*******Wellcome To TypeScript Quiz*******\n`));
+    console.log(chalk.italic.cyan.bold("|#|#|#|#|#|#|,|#|      |#|,|#|#|#|#|,|#|#|#|#|"));
+    console.log(chalk.italic.magenta.bold("|#|       |#|,|#|      |#|    |#|         /#/"));
+    console.log(chalk.italic.blue.bold("|#|       |#|,|#|      |#|    |#|       /#/ "));
+    console.log(chalk.italic.yellow.bold("|#|       |#|,|#|      |#|    |#|     /#/ "));
+    console.log(chalk.italic.green.bold("|#|#|#|#|#\\\\   \\|#|##|#|/  |#|#|#|#|,|#|#|#|#|"));
     let score = 0;
     for (let query of quiz) {
         let { answer } = await inquirer.prompt({
